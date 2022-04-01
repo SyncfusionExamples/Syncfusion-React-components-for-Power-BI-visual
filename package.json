@@ -1,0 +1,37 @@
+{
+  "name": "visual",
+  "description": "default_template_value",
+  "repository": {
+    "type": "default_template_value",
+    "url": "default_template_value"
+  },
+  "license": "MIT",
+  "scripts": {
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "package": "pbiviz package",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-calendars": "^19.4.56",
+    "@syncfusion/ej2-react-buttons": "^19.4.55",
+    "@syncfusion/ej2-react-calendars": "^19.4.56",
+    "@syncfusion/ej2-react-dropdowns": "^19.4.56",
+    "@syncfusion/ej2-react-grids": "^19.4.56",
+    "@syncfusion/ej2-react-inputs": "^19.4.52",
+    "@types/d3": "5.7.2",
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "d3": "5.12.0",
+    "powerbi-visuals-api": "~3.8.0",
+    "powerbi-visuals-utils-dataviewutils": "2.2.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "ts-loader": "6.1.0",
+    "tslint": "^5.18.0",
+    "tslint-microsoft-contrib": "^6.2.0",
+    "typescript": "3.6.3"
+  }
+}
